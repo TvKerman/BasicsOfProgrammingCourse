@@ -87,6 +87,8 @@ Course_EXTERNAL_OBJECTS =
 
 Course.exe: CMakeFiles/Course.dir/main.c.obj
 Course.exe: CMakeFiles/Course.dir/build.make
+Course.exe: libs/data_structures/libdata_structures.a
+Course.exe: libs/algorithms/libalgorithms.a
 Course.exe: CMakeFiles/Course.dir/linklibs.rsp
 Course.exe: CMakeFiles/Course.dir/objects1.rsp
 Course.exe: CMakeFiles/Course.dir/link.txt

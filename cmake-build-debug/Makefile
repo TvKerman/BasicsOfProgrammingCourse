@@ -128,6 +128,32 @@ Course/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Course.dir\build.make CMakeFiles/Course.dir/build
 .PHONY : Course/fast
 
+#=============================================================================
+# Target rules for targets named data_structures
+
+# Build rule for target.
+data_structures: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 data_structures
+.PHONY : data_structures
+
+# fast build rule for target.
+data_structures/fast:
+	$(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/build
+.PHONY : data_structures/fast
+
+#=============================================================================
+# Target rules for targets named algorithms
+
+# Build rule for target.
+algorithms: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 algorithms
+.PHONY : algorithms
+
+# fast build rule for target.
+algorithms/fast:
+	$(MAKE) $(MAKESILENT) -f libs\algorithms\CMakeFiles\algorithms.dir\build.make libs/algorithms/CMakeFiles/algorithms.dir/build
+.PHONY : algorithms/fast
+
 main.obj: main.c.obj
 .PHONY : main.obj
 
@@ -161,6 +187,8 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Course
+	@echo ... algorithms
+	@echo ... data_structures
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

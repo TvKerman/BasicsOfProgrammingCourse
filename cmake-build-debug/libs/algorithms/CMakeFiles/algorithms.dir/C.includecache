@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Git/Course/libs/algorithms/algorithm.c
+algorithm.h
+D:/Git/Course/libs/algorithms/algorithm.h
+
+D:/Git/Course/libs/algorithms/algorithm.h
+
+D:/Git/Course/libs/algorithms/array/array.c
+array.h
+D:/Git/Course/libs/algorithms/array/array.h
+stdio.h
+-
+limits.h
+-
+assert.h
+-
+
+D:/Git/Course/libs/algorithms/array/array.h
+stddef.h
+-
+
