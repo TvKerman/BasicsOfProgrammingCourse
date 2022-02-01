@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "D:/Git/Course/libs/data_structures/ordered_array_set/ordered_array_set.c" "D:/Git/Course/cmake-build-debug/libs/data_structures/CMakeFiles/data_structures.dir/ordered_array_set/ordered_array_set.c.obj"
   "D:/Git/Course/libs/data_structures/unordered_array_set/unordered_array_set.c" "D:/Git/Course/cmake-build-debug/libs/data_structures/CMakeFiles/data_structures.dir/unordered_array_set/unordered_array_set.c.obj"
+  "D:/Git/Course/libs/data_structures/vector/vector.c" "D:/Git/Course/cmake-build-debug/libs/data_structures/CMakeFiles/data_structures.dir/vector/vector.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
