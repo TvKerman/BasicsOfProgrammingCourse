@@ -27,7 +27,7 @@ vectorVoid createVectorV(size_t n, size_t baseTypeSize) {
 }
 
 void reserveV(vectorVoid *v, size_t newCapacity) {
-    v->data = (int *)realloc(v->data, newCapacity * v->baseTypeSize);
+    v->data = realloc(v->data, newCapacity * v->baseTypeSize);
     v->size = min(v->size, newCapacity);
     v->capacity = newCapacity;
 
