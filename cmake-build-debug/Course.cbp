@@ -176,6 +176,12 @@
 		<Unit filename="D:/Git/Course/libs/data_structures/vector/vector.h">
 			<Option target="data_structures"/>
 		</Unit>
+		<Unit filename="D:/Git/Course/libs/data_structures/vector/vectorVoid.c">
+			<Option target="data_structures"/>
+		</Unit>
+		<Unit filename="D:/Git/Course/libs/data_structures/vector/vectorVoid.h">
+			<Option target="data_structures"/>
+		</Unit>
 		<Unit filename="D:/Git/Course/main.c">
 			<Option target="Course"/>
 		</Unit>

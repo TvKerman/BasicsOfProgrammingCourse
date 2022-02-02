@@ -201,6 +201,30 @@ vector/vector.c.s:
 	cd /d D:\Git\Course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/vector/vector.c.s
 .PHONY : vector/vector.c.s
 
+vector/vectorVoid.obj: vector/vectorVoid.c.obj
+.PHONY : vector/vectorVoid.obj
+
+# target to build an object file
+vector/vectorVoid.c.obj:
+	cd /d D:\Git\Course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/vector/vectorVoid.c.obj
+.PHONY : vector/vectorVoid.c.obj
+
+vector/vectorVoid.i: vector/vectorVoid.c.i
+.PHONY : vector/vectorVoid.i
+
+# target to preprocess a source file
+vector/vectorVoid.c.i:
+	cd /d D:\Git\Course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/vector/vectorVoid.c.i
+.PHONY : vector/vectorVoid.c.i
+
+vector/vectorVoid.s: vector/vectorVoid.c.s
+.PHONY : vector/vectorVoid.s
+
+# target to generate assembly for a file
+vector/vectorVoid.c.s:
+	cd /d D:\Git\Course\cmake-build-debug && $(MAKE) $(MAKESILENT) -f libs\data_structures\CMakeFiles\data_structures.dir\build.make libs/data_structures/CMakeFiles/data_structures.dir/vector/vectorVoid.c.s
+.PHONY : vector/vectorVoid.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -219,6 +243,9 @@ help:
 	@echo ... vector/vector.obj
 	@echo ... vector/vector.i
 	@echo ... vector/vector.s
+	@echo ... vector/vectorVoid.obj
+	@echo ... vector/vectorVoid.i
+	@echo ... vector/vectorVoid.s
 .PHONY : help
 
 
