@@ -9,6 +9,8 @@
 D:/Git/Course/libs/data_structures/vector/vector.h
 stdio.h
 -
+stdbool.h
+-
 
 D:/Git/Course/main.c
 stdio.h
@@ -17,4 +19,6 @@ stdint.h
 -
 libs/data_structures/vector/vector.h
 D:/Git/Course/libs/data_structures/vector/vector.h
+assert.h
+-
 

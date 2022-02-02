@@ -14,6 +14,7 @@ vector createVector(size_t n) {
     vector v;
 
     v.data = (int *)malloc(n * sizeof(int));
+    v.size = 0;
     v.capacity = n;
 
     if (v.data == NULL) {
@@ -47,4 +48,33 @@ void deleteVector(vector *v) {
     free(v->data);
     v->size = 0;
     v->capacity = 0;
+}
+
+bool isEmpty(vector *v) {
+    return v->size == 0;
+}
+
+bool isFull(vector *v) {
+    return v->size == v->capacity;
+}
+
+int getVectorValue(vector *v, size_t i) {
+    return v->data[i];
+}
+
+void pushBack(vector *v, int x) {
+    if (v->capacity == 0) {
+        reserve(v, 1);
+    } else if (v->size == v->capacity) {
+        reserve(v, v->capacity * 2);
+    }
+    v->data[v->size++] = x;
+}
+
+void popBack(vector *v) {
+    if (v->size == 0) {
+        fprintf(stderr, "void vector");
+        exit(1);
+    }
+    v->size--;
 }

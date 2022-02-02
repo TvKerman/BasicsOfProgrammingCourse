@@ -17,4 +17,6 @@ stdlib.h
 D:/Git/Course/libs/data_structures/vector/vector.h
 stdio.h
 -
+stdbool.h
+-
 
