@@ -176,10 +176,10 @@
 		<Unit filename="D:/Git/Course/libs/data_structures/vector/vector.h">
 			<Option target="data_structures"/>
 		</Unit>
-		<Unit filename="D:/Git/Course/libs/data_structures/vector/vectorVoid.c">
+		<Unit filename="D:/Git/Course/libs/data_structures/vectorVoid/vectorVoid.c">
 			<Option target="data_structures"/>
 		</Unit>
-		<Unit filename="D:/Git/Course/libs/data_structures/vector/vectorVoid.h">
+		<Unit filename="D:/Git/Course/libs/data_structures/vectorVoid/vectorVoid.h">
 			<Option target="data_structures"/>
 		</Unit>
 		<Unit filename="D:/Git/Course/main.c">

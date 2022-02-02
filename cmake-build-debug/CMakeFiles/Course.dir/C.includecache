@@ -12,15 +12,19 @@ stdio.h
 stdbool.h
 -
 
-D:/Git/Course/libs/data_structures/vector/vectorVoid.h
+D:/Git/Course/libs/data_structures/vectorVoid/vectorVoid.h
 limits.h
+-
+stdio.h
+-
+stdbool.h
 -
 
 D:/Git/Course/main.c
 libs/data_structures/vector/vector.h
 D:/Git/Course/libs/data_structures/vector/vector.h
-libs/data_structures/vector/vectorVoid.h
-D:/Git/Course/libs/data_structures/vector/vectorVoid.h
+libs/data_structures/vectorVoid/vectorVoid.h
+D:/Git/Course/libs/data_structures/vectorVoid/vectorVoid.h
 assert.h
 -
 

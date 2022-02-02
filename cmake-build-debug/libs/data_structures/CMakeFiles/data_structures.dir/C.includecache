@@ -6,25 +6,19 @@
 
 #IncludeRegexTransform: 
 
-D:/Git/Course/libs/data_structures/vector/vector.c
-vector.h
-D:/Git/Course/libs/data_structures/vector/vector.h
-malloc.h
--
+D:/Git/Course/libs/data_structures/vectorVoid/vectorVoid.c
+vectorVoid.h
+D:/Git/Course/libs/data_structures/vectorVoid/vectorVoid.h
 stdlib.h
 -
+malloc.h
+-
 
-D:/Git/Course/libs/data_structures/vector/vector.h
+D:/Git/Course/libs/data_structures/vectorVoid/vectorVoid.h
+limits.h
+-
 stdio.h
 -
 stdbool.h
--
-
-D:/Git/Course/libs/data_structures/vector/vectorVoid.c
-vectorVoid.h
-D:/Git/Course/libs/data_structures/vector/vectorVoid.h
-
-D:/Git/Course/libs/data_structures/vector/vectorVoid.h
-limits.h
 -
 

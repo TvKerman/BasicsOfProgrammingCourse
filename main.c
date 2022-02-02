@@ -1,6 +1,6 @@
 
 #include "libs/data_structures/vector/vector.h"
-#include "libs/data_structures/vector/vectorVoid.h"
+#include "libs/data_structures/vectorVoid/vectorVoid.h"
 #include <assert.h>
 
 bool isEqualVector(const vector *v1, const vector *v2) {
@@ -118,6 +118,7 @@ void test() {
 int main() {
     //test();
     vectorVoid v;
-
+    v = createVectorV(0, sizeof(int));
+    deleteVectorV(&v);
     return 0;
 }
