@@ -115,10 +115,53 @@ void test() {
     test_front_oneElementInVector();
 }
 
+void test_pushBackV_intTypeNumbers() {
+    size_t n;
+    scanf("%zd", &n);
+
+    vectorVoid v = createVectorV(0, sizeof(int));
+    for (int i = 0; i < n ; i ++) {
+        int x;
+        scanf("%d", &x);
+
+        pushBackV(&v, &x);
+    }
+
+    for (int i = 0; i < n ; i++) {
+        int x;
+        getVectorValueV(&v, i, &x);
+
+        printf("%d ", x);
+    }
+
+    deleteVectorV(&v);
+}
+
+void test_pushBackV_floatTypeNumbers() {
+    size_t n;
+    scanf("%zd", &n);
+
+    vectorVoid v = createVectorV(0, sizeof(float));
+    for (int i = 0; i < n ; i ++) {
+        float x;
+        scanf("%f", &x);
+
+        pushBackV(&v, &x);
+    }
+
+    for (int i = 0; i < n ; i++) {
+        float x;
+        getVectorValueV(&v, i, &x);
+
+        printf("%f ", x);
+    }
+
+    deleteVectorV(&v);
+}
+
 int main() {
     //test();
-    vectorVoid v;
-    v = createVectorV(0, sizeof(int));
-    deleteVectorV(&v);
+    test_pushBackV_floatTypeNumbers();
+
     return 0;
 }

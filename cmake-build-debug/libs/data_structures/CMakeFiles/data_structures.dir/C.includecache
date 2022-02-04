@@ -13,6 +13,8 @@ stdlib.h
 -
 malloc.h
 -
+memory.h
+-
 
 D:/Git/Course/libs/data_structures/vectorVoid/vectorVoid.h
 limits.h
