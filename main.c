@@ -160,8 +160,9 @@ void test_pushBackV_floatTypeNumbers() {
 }
 
 int main() {
-    //test();
-    test_pushBackV_floatTypeNumbers();
+    test();
+    //test_pushBackV_intTypeNumbers();
+    //test_pushBackV_floatTypeNumbers();
 
     return 0;
 }
